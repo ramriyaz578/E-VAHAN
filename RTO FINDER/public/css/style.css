@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Pacifico&family=Poppins:wght@300;400&family=Romanesco&display=swap");
+
+body {
+  background-image: url(../img/i1.jpg);
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgb(11, 4, 62),
+    rgba(16, 10, 63, 0.908)
+  );
+}
+
+.title {
+  margin-top: 10px;
+  color: black;
+}
+
+.logo > div > div > img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 8px;
+}
+.log {
+  padding-right: 10px;
+  display: flex;
+  column-gap: 15px;
+}
+.log > span > a {
+  color: rgba(248, 252, 252, 0.96);
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+@media screen and (max-width: 700px) {
+  .log {
+    display: none;
+  }
+}
+.homeimg {
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: aliceblue;
+  text-align: center;
+  gap: 5px;
+}
+.centerdiv2 {
+  /* padding-top: 10px; */
+  margin-top: 70px;
+  height: 180px;
+  width: 250px;
+  border-radius: 10%;
+  text-shadow: 2px 2px 4px #000000;
+}
+@media screen and (max-width: 700px) {
+  .centerdiv2 {
+    display: none;
+  }
+}
+.imgre {
+  margin-top: 20px;
+  float: left;
+  height: 200px;
+  width: 250px;
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.searchmain {
+  background-size: cover;
+  height: 250px;
+}
+.headline {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  color: blanchedalmond;
+  text-shadow: 2px 2px 4px #000000;
+}
+.searchinput {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.inputbox {
+  border: none;
+  border-radius: 9px;
+  padding: 1%;
+  width: 350px;
+  text-align: center;
+  font-size: large;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 5px 5px 10px rgba(36, 35, 34, 0.904);
+}
+.resultpage {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0),
+    rgb(96, 89, 89)
+  );
+  overflow: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 5px 5px 10px 10px rgba(36, 35, 34, 0.904);
+  color: aliceblue;
+}
+.hidden {
+  display: none;
+}
+
+.tab {
+  width: 100%;
+  background-position: center;
+  color: blanchedalmond;
+  font-weight: bold;
+  font-size: larger;
+  background-blend-mode: color-burn;
+  opacity: 0.8;
+}
+.cell {
+  border: solid 1px black;
+  padding: 15px;
+}
+.rs1 {
+  color: aliceblue;
+}
+.query {
+  color: antiquewhite;
+}
